@@ -12,11 +12,10 @@ print(data)
 
 y=data["date_time"]
 x=data["amount"]
-y2=data["currency"]
+z=data["country"]
 
 
-plt.scatter(x,y)
-
+plt.bar(x,y)
 
 plt.show()
 
